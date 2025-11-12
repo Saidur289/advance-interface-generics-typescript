@@ -8,5 +8,5 @@ const kgConverter = (input: string | number) :string |number |undefined => {
         return undefined
     }
 }
-console.log(kgConverter(1));
-console.log(kgConverter("2"));
+console.log(kgConverter(1) as  number) ;
+console.log(kgConverter("2") as string);
